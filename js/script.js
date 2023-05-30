@@ -3,7 +3,7 @@ console.log("JS OK");
 //# PRELIMINARI
 const elementNumber = document.getElementById("number");
 let number;
-let pageNumber = "";
+
 //# Cicle
 for (let i = 1; i <= 100; i++) {
   const frizz = i % 3;

@@ -8,21 +8,17 @@ let pageNumber = "";
 for (let i = 1; i <= 100; i++) {
   const frizz = i % 3;
   const buzz = i % 5;
-  let x;
 
   //! Controllo e stampa numerico
   if (!frizz && !buzz) {
     //# Controllo se è sia multiplo di 3 che di 5
-    x = "Frizz" + "Buzz";
-    number = x;
+    number = "Frizz" + "Buzz";
   } else if (!buzz) {
     //# Controllo se è multiplo di 3
-    x = "Buzz";
-    number = x;
+    number = "Buzz";
   } else if (!frizz) {
     //# Controllo se è multiplo di 5
-    x = "Frizz";
-    number = x;
+    number = "Frizz";
   } else {
     //# Continuo con il mio contatore
     number = i;
@@ -31,7 +27,8 @@ for (let i = 1; i <= 100; i++) {
   //# Stampo in console
   console.log("Questi sono i numeri: " + number);
 
-  pageNumber += "|" + number + "| ";
+  //# Aggiungo nell'html le colonne
+  elementNumber.innerHTML += `<div class="col border">${number}</div>`;
 }
 
-elementNumber.innerText = pageNumber;
+// elementNumber.innerText = pageNumber;

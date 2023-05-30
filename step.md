@@ -9,9 +9,9 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz” al posto 
 
 ```
 - Creo un ciclo che vada da 1 a 100 e lo stampo in console.
-- Controllo ogni i multipli del 3 sostituisco la variabile stampando 'Fizz'
-- Controllo ogni i multipli del 5 sostituisco la variabile stampando 'Buzz'
-- Controllo ogni i multipli del 5 e del 3 e sommo le variabili 'Fizz' e 'Buzz'
+- Controllo i multipli del 3 sostituisco la variabile stampando 'Fizz'
+- Controllo i multipli del 5 sostituisco la variabile stampando 'Buzz'
+- Controllo i multipli del 5 e del 3 e sommo le variabili 'Fizz' e 'Buzz'
 ```
 
 ## Bonus
@@ -24,5 +24,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 ```
 - Compilare l'HTML e prendere tutti gli elementi necessari dal DOM
+- Inserisci in una variabile tutta la stringa dei numeri
+- Inseriscilo nell'elemento del DOM
 - Applicarci il CSS
 ```
